@@ -25,6 +25,9 @@ npx markdownlint-cli2 "**/*.md"
 
 # Link check (relative + external)
 npx lychee --no-progress "**/*.md"
+
+# Internal #anchor links (validates cross-references resolve to real headings)
+python scripts/check_links.py
 ```
 
 ## Style
