@@ -2,6 +2,7 @@
 
 > A practical, source-backed guide to running the software development lifecycle with AI agents — and to designing the agentic workflows that power it.
 
+[![docs-lint](https://github.com/matthews-wong/agentic-sdlc-playbook/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/matthews-wong/agentic-sdlc-playbook/actions/workflows/docs-lint.yml)
 [![Docs](https://img.shields.io/badge/docs-playbook-blue)](./docs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Status](https://img.shields.io/badge/status-living%20document-brightgreen)](./.agentic-repo-progress.md)
@@ -37,7 +38,7 @@ An **agentic workflow** orchestrates an LLM and tools through code paths *you* d
 
 ## How this repo is maintained
 
-This is an iteratively-built playbook. Progress and the next planned additions are tracked in [`.agentic-repo-progress.md`](./.agentic-repo-progress.md). Each pass deepens a section or adds a new one; corrections and PRs are welcome.
+This is an iteratively-built playbook. Progress and the next planned additions are tracked in [`.agentic-repo-progress.md`](./.agentic-repo-progress.md). Each pass deepens a section or adds a new one; corrections and PRs are welcome — see [CONTRIBUTING.md](./CONTRIBUTING.md). Docs are linted (markdownlint + link check) in CI.
 
 ## License
 
