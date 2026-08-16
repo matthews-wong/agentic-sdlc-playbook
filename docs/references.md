@@ -59,6 +59,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [AI Error Handling Patterns 2026: Circuit Breakers, Retries & Fallbacks (ValueStream)](https://valuestreamai.com/blog/ai-error-handling-patterns-2026)
 - [AI Agent Error Handling: 7 Proven Practices (Agentive)](https://agentiveaiagents.com/ai-agent-error-handling-best-practices/)
 
+## Maturity models
+
+- [AI-SDLC Maturity Model: Traditional to Autonomous Development (ELEKS)](https://eleks.com/blog/ai-sdlc-maturity-model/)
+- [Agentic Engineering Maturity Model: 5-Level Self-Assessment (Augment Code)](https://www.augmentcode.com/guides/agentic-engineering-maturity-model)
+- [AI SDLC in 2026 for Enterprise Engineering Teams — maturity assessment (Grid Dynamics)](https://www.griddynamics.com/blog/ai-sdlc-maturity-assessment)
+- [Agentic AI Maturity Model: Enterprise Self-Assessment (Digital Applied)](https://www.digitalapplied.com/blog/agentic-ai-maturity-model-enterprise-self-assessment-guide)
+
 ## Agentic coding & spec-driven development
 
 - [Spec-Driven Development (SDD): The Definitive 2026 Guide (BCMS)](https://www.thebcms.com/blog/spec-driven-development/)

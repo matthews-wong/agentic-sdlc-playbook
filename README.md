@@ -27,6 +27,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Agentic SDLC](./docs/agentic-sdlc.md) | The lifecycle stage by stage, agent roles, human review checkpoints, and how it differs from AI-assisted coding |
 | [Agentic Workflows](./docs/agentic-workflows.md) | The core pattern catalog: reflection, tool use, planning, ReAct, and the five orchestration workflows; when *not* to build an agent |
 | [Governance & Metrics](./docs/governance-and-metrics.md) | Guardrails, observability, human-in-the-loop design, and the metrics that prove value |
+| [Maturity Model](./docs/maturity-model.md) | A five-level self-assessment across eight dimensions, with what to build to advance |
 | [Adoption Roadmap](./docs/adoption-roadmap.md) | A pragmatic 30/60/90-day plan to roll agents into a real team's SDLC |
 | [Team & Operating Model](./docs/team-and-operating-model.md) | Roles (creator→curator), new roles, and org patterns for coordinating humans + agents |
 | [Securing Agentic Systems](./docs/security.md) | Prompt injection, least privilege, sandboxing, tool-use governance, and a security checklist |
