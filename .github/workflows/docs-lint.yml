@@ -28,13 +28,14 @@ jobs:
       - name: Check links with lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          # Accept bot-block (403) and rate-limit (429) as non-failures: many
-          # sites reject automated agents even though the page is live. Real
-          # 404s still fail. Live-but-blocking domains are in .lycheeignore.
-          # Internal file/#anchor links are strictly enforced by the separate
-          # anchor-links job (scripts/check_links.py).
+          # External link checking is INFORMATIONAL (fail: false). Checking ~80+
+          # third-party URLs, many of which bot-block link-checkers (403) or flake
+          # (timeouts, transient 5xx), would red the build intermittently through
+          # no fault of the content. The report still surfaces dead links; act on
+          # real 404s manually. INTERNAL file/#anchor links ARE strictly enforced
+          # (and block) via the separate anchor-links job (scripts/check_links.py).
           args: "--no-progress --max-retries 2 --accept 200,206,403,429 './**/*.md'"
-          fail: true
+          fail: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
