@@ -11,18 +11,23 @@ Traditional non-human identities (NHIs) — service accounts, API keys, bots —
 ## Core principles
 
 ### 1. A unique identity per agent
+
 Assign each agent its own identity — never let it borrow a human's or share one blanket service account. Every action must be attributable to *that* agent (this is what makes the [observability trace](./observability.md) and [accountability](./governance-and-metrics.md#human-in-the-loop-design) real).
 
 ### 2. Delegation, not impersonation
+
 The recommended pattern: the agent is a **uniquely identified principal acting on a user's behalf**, carrying an auditable delegation chain — *not* impersonating the user by reusing their credentials. Impersonation destroys attribution and blast-radius control; delegation preserves both.
 
 ### 3. Scoped, short-lived credentials
+
 Because scope changes per invocation, credentials should be **narrow and ephemeral** — issue a short-lived, minimally-scoped token for the task at hand, not a long-lived key with broad rights. This is [least privilege](./security.md#1-least-privilege) applied across *both* scope and time.
 
 ### 4. Secrets stay out of the model's context
+
 The agent should hold **references**, not raw secrets; a broker/vault issues scoped tokens to the tool layer at call time. Never place long-lived credentials in the prompt or memory (see [context & memory](./context-and-memory.md#just-in-time-retrieval-over-pre-loading)).
 
 ### 5. Real-time visibility and revocation
+
 You need live inventory of which agent identities exist, what they can access, and the ability to revoke fast. Unmanaged NHIs with broad privileges and near-zero oversight are the failure mode to avoid.
 
 ## The standards are immature — don't wait for them
