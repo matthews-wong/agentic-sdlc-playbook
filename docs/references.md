@@ -29,6 +29,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Mervin Praison — [When Not to Build AI Agents: Anthropic's Workflow-vs-Agent Playbook](https://mer.vin/2026/05/when-not-to-build-ai-agents-anthropics-workflow-vs-agent-playbook/)
 - Spring AI — [Building Effective Agents (reference implementation)](https://docs.spring.io/spring-ai/reference/api/effective-agents.html)
 
+## Interoperability protocols
+
+- [A Survey of Agent Interoperability Protocols: MCP, ACP, A2A, ANP (arXiv)](https://arxiv.org/html/2505.02279v1)
+- [Agent Interoperability Protocols 2026: MCP, A2A, ACP and the Path to Convergence (Zylos)](https://zylos.ai/research/2026-03-26-agent-interoperability-protocols-mcp-a2a-acp-convergence/)
+- [MCP vs A2A: Protocols for Multi-Agent Collaboration (OneReach)](https://onereach.ai/blog/guide-choosing-mcp-vs-a2a-protocols/)
+- [Governance Gaps in Agent Interoperability Protocols (arXiv)](https://arxiv.org/pdf/2606.31498)
+
 ## Cost & performance
 
 - [LLM Cost Optimization: Prompt Caching, Batching & Routing (DataNorth)](https://datanorth.ai/blog/llm-cost-optimization-prompt-caching-batching-routing)

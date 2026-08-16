@@ -29,6 +29,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Securing Agentic Systems](./docs/security.md) | Prompt injection, least privilege, sandboxing, tool-use governance, and a security checklist |
 | [Evaluating Agents](./docs/evaluating-agents.md) | Trajectory vs. final-answer evals, LLM-as-judge limits, and regression testing under non-determinism |
 | [Cost & Performance](./docs/cost-and-performance.md) | Token economics, prompt caching, model routing, batching, and latency levers |
+| [Protocols: MCP & A2A](./docs/protocols-mcp-a2a.md) | The two-layer interoperability stack — MCP for tools, A2A for agent coordination |
 | [Pattern Catalog](./docs/patterns/) | Each orchestration workflow with a minimal, framework-agnostic code sketch |
 | [Case Studies](./docs/case-studies.md) | Real & reference-architecture examples (GitHub Copilot coding agent, end-to-end Azure+GitHub SDLC) mapped to the patterns |
 | [Tooling Landscape](./docs/tooling-landscape.md) | Agent-building frameworks vs. SDLC agent products, and criteria for choosing between them |
