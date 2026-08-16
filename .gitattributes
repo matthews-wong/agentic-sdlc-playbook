@@ -1,0 +1,13 @@
+# Normalize line endings: store text as LF in the repo, regardless of the
+# committer's OS. Fixes the recurring "LF will be replaced by CRLF" churn.
+* text=auto eol=lf
+
+# Explicit for the file types this repo actually contains.
+*.md    text eol=lf
+*.py    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.json  text eol=lf
+*.jsonc text eol=lf
+*.txt   text eol=lf
+LICENSE text eol=lf
