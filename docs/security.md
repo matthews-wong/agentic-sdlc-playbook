@@ -24,12 +24,15 @@ The danger scales with capability: **an LLM agent with shell / fetch / filesyste
 No single control solves injection; defense is layered. The three that consistently work in production:
 
 ### 1. Least privilege
+
 Give the agent only the tools, data, and permissions its specific task needs — nothing more. This is the highest-leverage control: reporting suggests organizations enforcing least-privilege agent access saw far lower incident rates than those without it (directional — see the caveat below).
 
 ### 2. Sandboxing
+
 Run tool execution — code, filesystem, network — in **isolated containers with restricted access**. The key property: the sandbox enforces limits at the *infrastructure* level, so they hold **regardless of what the agent was instructed to do.** Don't rely on the model choosing to comply; make non-compliance impossible.
 
 ### 3. Tool-use governance
+
 - **Validate tool output before it re-enters context** — treat it as untrusted data, not trusted instruction.
 - **Human confirmation for high-impact operations** — delete, send, deploy, transfer, spend. This is exactly the [blast-radius gate](./governance-and-metrics.md#guardrails-design-for-the-blast-radius) from the governance page, applied to security.
 - **Segment context regions** — keep system prompt, user input, and tool/retrieved output in distinguishable regions so the model can weight them differently.

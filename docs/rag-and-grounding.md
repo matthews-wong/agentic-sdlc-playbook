@@ -13,15 +13,19 @@ So "we added RAG" is not "we fixed accuracy." You've traded a generation problem
 ## The four levers (where the quality wins are)
 
 ### 1. Chunking
+
 Chunk by **semantics — sections and headings — not by raw size.** Size-based chunking fragments evidence across boundaries so the right fact is never wholly in one chunk.
 
 ### 2. Hybrid retrieval
+
 Combine **dense vector search with keyword/BM25** retrieval. Dense catches meaning; keyword catches exact terms, IDs, and rare tokens. Together they recall more than either alone.
 
 ### 3. Reranking
+
 Run a reranker (e.g. Cohere Rerank, BGE-Reranker) over candidates so the **best chunk lands first** in the prompt — reported to cut hallucination by up to ~20% on its own. Cheap, high-leverage; also fights [context rot](./context-and-memory.md#context-rot-more-context-is-not-better) by letting you pass fewer, better chunks.
 
 ### 4. Long-context vs. RAG
+
 Stuffing everything into a long context is not a substitute for retrieval — it's slower, costlier, and [degrades with size](./context-and-memory.md#context-rot-more-context-is-not-better). Retrieve the *relevant* slice; reserve long context for when relevance genuinely can't be narrowed.
 
 ## Grounding with citations

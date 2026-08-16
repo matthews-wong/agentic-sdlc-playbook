@@ -41,19 +41,23 @@ This trace is what turns an opaque "the agent did something" into a debuggable, 
 Vanity metric: "lines of code generated." Real metrics tie to delivery outcomes.
 
 ### Flow & throughput
+
 - **Release frequency** — top teams (6+ AI-covered stages) release ~**2×** as often.
 - **Lead time for change** — intent to production.
 - **Stage coverage** — how many SDLC stages have meaningful agent participation. The **6+ threshold** is where compounding gains appear.
 
 ### Quality
+
 - **Defect / change-failure rate** — some 6+ stage samples report **up to 96%** fewer defects. Watch this closely; autonomy without verification moves it the wrong way.
 - **Rework rate** — how often agent output is rejected or reverted at checkpoints.
 
 ### Economics
+
 - **Cost per completed task** — tokens + compute + human review time. Falling cost-per-task at flat-or-better quality is the signal that autonomy is paying off.
 - **Human review load** — trending down as trust and verification mature.
 
 ### The trap to avoid
+
 Coding throughput improving 30–40% while overall team productivity rises **<10%** is the signature of narrow adoption. If your dashboards show the first without the second, the bottleneck has moved to an un-automated stage — instrument and address *that*, don't add more coding autonomy.
 
 ## A minimal governance checklist

@@ -75,7 +75,7 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 
 ## RAG & grounding
 
-- [RAG Best Practices for Enterprise AI: Chunking, Embeddings, Reranking, Hybrid Search (StackAI)](https://www.stackai.com/insights/retrieval-augmented-generation-(rag)-best-practices-for-enterprise-ai-chunking-embeddings-reranking-and-hybrid-search-optimization)
+- [RAG Best Practices for Enterprise AI: Chunking, Embeddings, Reranking, Hybrid Search (StackAI)](https://www.stackai.com/insights/retrieval-augmented-generation-%28rag%29-best-practices-for-enterprise-ai-chunking-embeddings-reranking-and-hybrid-search-optimization)
 - [Advanced RAG techniques for high-performance LLM applications (Neo4j)](https://neo4j.com/blog/genai/advanced-rag-techniques/)
 - [How to stop AI hallucinations in enterprise RAG systems (Redgate)](https://www.red-gate.com/simple-talk/ai/how-to-stop-ai-hallucinations-in-enterprise-rag-systems-a-complete-guide/)
 - [RAG Best Practices 2026: Chunking, Reranking, Hybrid Search (CallMissed)](https://www.callmissed.com/en/blog/rag-best-practices-2026)

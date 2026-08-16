@@ -7,6 +7,7 @@ document; entries are grouped by the date they landed.
 ## [Unreleased]
 
 ### Added
+
 - `docs/evaluating-agents.md` — evaluating agents: three eval layers, LLM-as-judge limits, regression testing under non-determinism, benchmarks vs. custom datasets.
 - `docs/security.md` — securing agentic systems: prompt injection, least privilege, sandboxing, tool-use governance, and a checklist.
 - `docs/adoption-roadmap.md` — a pragmatic 30/60/90-day rollout plan with exit criteria.
@@ -23,12 +24,14 @@ document; entries are grouped by the date they landed.
 - `CONTRIBUTING.md`, issue/PR templates, and a `docs-lint` + `example-tests` CI workflow.
 
 ### Notes
+
 - All commits omit AI co-author trailers (per project preference).
 - Quantitative figures throughout are directional benchmarks from cited industry sources, not guarantees.
 
 ## [0.1.0] - 2026-08-16
 
 ### Added
+
 - Initial playbook: `README`, `LICENSE` (MIT), and the core guides —
   `docs/agentic-sdlc.md`, `docs/agentic-workflows.md`,
   `docs/governance-and-metrics.md`, and `docs/references.md`.

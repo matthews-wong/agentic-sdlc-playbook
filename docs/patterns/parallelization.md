@@ -1,6 +1,7 @@
 # Parallelization
 
 **Shape:** Fan out → run concurrently → aggregate. Two flavors:
+
 - **Sectioning** — split a task into independent subtasks that run at once.
 - **Voting** — run the *same* task multiple times and combine results for reliability.
 
@@ -37,6 +38,7 @@ def is_safe(diff: str, votes: int = 3) -> bool:
 ```
 
 ## Trade-offs
+
 - **+** Lower latency for independent work; higher reliability for voting.
 - **+** Diverse prompts per branch catch failure modes a single pass misses.
 - **–** Costs N× the calls; aggregation logic must handle disagreement.

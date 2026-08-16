@@ -24,6 +24,7 @@ def generate_until_good(task: str, max_rounds: int = 3) -> str:
 ```
 
 ## Trade-offs
+
 - **+** Large quality gains on tasks with a checkable target; catches first-draft errors cheaply.
 - **+** A separate-context evaluator is far less likely to rubber-stamp than self-review.
 - **–** Needs a hard round/budget cap or it can loop indefinitely.

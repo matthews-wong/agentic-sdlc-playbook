@@ -25,6 +25,7 @@ def route(ticket: str) -> str:
 ```
 
 ## Trade-offs
+
 - **+** Each handler stays simple and specialized; easy to add a category.
 - **+** Lets you send cheap inputs to a cheap model and hard ones to a strong one.
 - **–** A wrong classification sends work down the wrong path — always define a safe default and log misroutes.

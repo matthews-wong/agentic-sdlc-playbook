@@ -31,6 +31,7 @@ def orchestrate(goal: str) -> str:
 ```
 
 ## Trade-offs
+
 - **+** Adapts to inputs whose decomposition can't be known up front.
 - **+** Workers stay narrow and specialized; easy to give each the right tools.
 - **–** The orchestrator now owns a control-flow decision — less predictable; log the plan it chose so runs stay debuggable.

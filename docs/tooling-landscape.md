@@ -28,9 +28,10 @@ The landscape consolidated in 2026 around a handful of options, each backed by a
 | **AG2** | Event-driven, async message passing | Community successor to AutoGen; strong when agents write & run code | Newer/community-driven; churn |
 | **Strands** (AWS) | AWS-native agent framework | Fits AWS-centric stacks | Ecosystem lock-in |
 
-*(AutoGen itself moved to maintenance mode; AG2 is the community continuation.)*
+Note: AutoGen itself moved to maintenance mode; AG2 is the community continuation.
 
 ### Mapping frameworks to the patterns
+
 - Need **explicit, auditable control flow** ([prompt chaining](./patterns/prompt-chaining.md), rollback)? → graph-based (LangGraph).
 - Need a **fast multi-agent prototype** ([orchestrator-workers](./patterns/orchestrator-workers.md))? → role-based (CrewAI).
 - Agents that **write and execute code**? → sandboxed execution (OpenAI Agents SDK, AG2).

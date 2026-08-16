@@ -40,6 +40,7 @@ intent ─▶ [Planner] ─▶ (approve plan)
 ```
 
 **Mapped to this playbook:**
+
 - The lifecycle chain is [orchestrator-workers](./patterns/orchestrator-workers.md) at the top, [prompt chaining](./patterns/prompt-chaining.md) within a task.
 - Reviewer is a *different* agent than the implementer — [reflection across contexts](./patterns/evaluator-optimizer.md).
 - Every irreversible step (merge, prod promotion) is a human gate.

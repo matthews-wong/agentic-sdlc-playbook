@@ -36,26 +36,32 @@ flowchart LR
 *(◆ = human checkpoint. More diagrams — including each orchestration workflow — in [diagrams.md](./diagrams.md).)*
 
 ### 1. Plan
+
 - Agents draft specs from a goal, decompose epics into tasks, and surface ambiguities as questions.
 - Human checkpoint: approve the plan and acceptance criteria before code is written.
 
 ### 2. Build
+
 - Agents implement tasks, write tests alongside code, and open pull requests.
 - This is the most mature stage today (the 30–40% coding gains come from here) — but on its own it moves the whole-team needle by <10%.
 
 ### 3. Review
+
 - Agents perform first-pass code review: style, obvious bugs, security smells, test coverage gaps.
 - Human checkpoint: humans still own the merge decision on anything consequential.
 
 ### 4. Test & Verify
+
 - Agents generate edge-case tests, run suites, triage failures, and reproduce bugs.
 - The highest-leverage under-automated stage — automating it is where the "6+ stages" teams pull ahead.
 
 ### 5. Deploy
+
 - Agents prepare release notes, run deployment checklists, and gate on health signals.
 - Human checkpoint: production promotion typically stays behind an explicit approval.
 
 ### 6. Operate
+
 - Agents watch telemetry, triage alerts, draft incident comms, and propose mitigations.
 - The loop closes here: operational findings feed back into the next plan.
 

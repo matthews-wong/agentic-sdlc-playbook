@@ -25,6 +25,7 @@ def write_release_notes(commits: str) -> str:
 ```
 
 ## Trade-offs
+
 - **+** Most reliable and debuggable pattern; each step is inspectable.
 - **+** Gates let you fail fast and cheap.
 - **–** Rigid: a fixed chain can't adapt to unexpected input shapes.

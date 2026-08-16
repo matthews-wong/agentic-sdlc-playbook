@@ -12,15 +12,19 @@ Anthropic's core guidance: **find the simplest solution possible, and only incre
 ## The core cognitive patterns
 
 ### Reflection
+
 The agent critically evaluates its own output before finalizing — a self-review loop. Cheap to add, high value: a generate → critique → revise cycle catches a large share of first-draft errors. This is the single most reliable capability multiplier.
 
 ### Tool use
+
 The agent interacts with external systems and data sources through dynamic API invocation — reading files, querying databases, calling services, running code. Alongside reflection, this is the most *mature and predictable* pattern.
 
 ### Planning
+
 The agent decomposes a large task into subgoals and refines over past actions (Plan-Act, Plan-Act-Reflect). Powerful, but explicitly **less mature and less predictable** than reflection and tool use — treat autonomous planning as the part most likely to go sideways and gate it accordingly.
 
 ### ReAct (Reason + Act)
+
 The agent alternates between reasoning steps and actions, interleaving "think" and "do" so each action is informed by observed results. A strong default loop for tool-using agents.
 
 ## The five orchestration workflows
@@ -36,6 +40,7 @@ From Anthropic's *Building Effective Agents* (Dec 2024). They increase in comple
 | 5 | **Evaluator-optimizer** | Generator ↔ evaluator loop | You have clear evaluation criteria and iteration measurably improves the result |
 
 ### Reading the ladder
+
 1–3 are **workflows** (you define the control flow). 4–5 start handing control-flow decisions to the model. Full **agents** sit beyond 5, where the model owns the loop. Climb only as far as the problem forces you.
 
 ## Multi-agent orchestration

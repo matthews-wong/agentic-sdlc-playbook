@@ -11,20 +11,25 @@ A cheaper per-call model that loops five times to get a right answer can cost mo
 Reported results from 2026 practice suggest a combined **~47–80% spend reduction** without degrading UX by stacking these — roughly in order of leverage:
 
 ### 1. Prompt caching
+
 Cache the **stable** part of the prompt (system prompt, tool defs, long context) so repeated calls don't re-pay for it. Industry measurements report **~41–80% cost reduction** and **~13–31% faster time-to-first-token**.
 
 > **The rule that makes or breaks it:** keep the stable prefix first and put **dynamic content at the end**, where it doesn't invalidate earlier cache blocks. Structure prompts cache-first.
 
 ### 2. Model routing / tiering
+
 Classify task difficulty and route to the smallest model that can do it; escalate only hard cases. This is the [routing pattern](./patterns/routing.md) applied to *cost*. Reported savings **~40–70%**, with routing studies retaining ~95% of frontier-model quality at a fraction of the cost.
 
 ### 3. Prompt compression
+
 Trim redundant context, summarize long histories, and pass references instead of full blobs. Fewer input tokens on every call.
 
 ### 4. Batching
+
 For non-urgent work — evals, backfills, pipelines, background jobs — use batch APIs (often a **~50% discount**) and trade latency for cost. Perfect for the offline [eval](./evaluating-agents.md) runs.
 
 ### 5. Self-hosted levers
+
 Quantization / distillation for models you run yourself, where infra cost dominates.
 
 ## Latency, specifically

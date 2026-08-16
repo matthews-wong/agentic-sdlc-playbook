@@ -27,12 +27,14 @@ flowchart LR
 Ordered by increasing complexity — use the least complex one that solves your problem. See the [pattern catalog](./patterns/) for code.
 
 ### 1. Prompt chaining
+
 ```mermaid
 flowchart LR
     in([Input]) --> s1[Step 1] --> gate{{Gate?}} --> s2[Step 2] --> s3[Step 3] --> out([Output])
 ```
 
 ### 2. Routing
+
 ```mermaid
 flowchart LR
     in([Input]) --> c{Classify}
@@ -42,6 +44,7 @@ flowchart LR
 ```
 
 ### 3. Parallelization
+
 ```mermaid
 flowchart LR
     in([Input]) --> f((fan out))
@@ -55,6 +58,7 @@ flowchart LR
 ```
 
 ### 4. Orchestrator-workers
+
 ```mermaid
 flowchart TD
     in([Goal]) --> orch[Orchestrator<br/>decomposes at runtime]
@@ -68,6 +72,7 @@ flowchart TD
 ```
 
 ### 5. Evaluator-optimizer
+
 ```mermaid
 flowchart LR
     in([Task]) --> gen[Generator]

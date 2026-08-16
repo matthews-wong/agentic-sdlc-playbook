@@ -1,0 +1,20 @@
+{
+  // Rule config for markdownlint-cli2. Rendering-irrelevant or intentionally-used
+  // rules are disabled; structural rules (blanks around headings/lists/fences) stay on.
+  "config": {
+    "default": true,
+    "MD013": false,   // line length — prose wraps naturally
+    "MD033": false,   // inline HTML — used in a few places
+    "MD041": false,   // first line need not be a top-level heading
+    "MD024": { "siblings_only": true }, // repeated headings OK under different parents
+    "MD040": false,   // allow bare ``` fences for ASCII diagrams / trace trees
+    "MD049": false,   // don't enforce a single emphasis marker style
+    "MD060": false    // table pipe spacing — cosmetic, version-dependent
+
+  },
+  // The build-log is a fast-moving internal scratch file, not published docs.
+  "ignores": [
+    "node_modules",
+    ".agentic-repo-progress.md"
+  ]
+}
