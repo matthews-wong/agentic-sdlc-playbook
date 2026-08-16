@@ -18,6 +18,15 @@ It is written for engineering leaders and hands-on builders who want more than h
 
 Coding assistants improved raw code output by 30–40%, yet most teams saw overall productivity rise **less than 10%** — because planning, testing, and release stayed manual. The leverage is not in autocompleting functions; it is in re-shaping the *whole* lifecycle around agents with clear guardrails. This playbook is about that shift.
 
+## Where to start (by role)
+
+The playbook is large; you don't need all of it at once. Pick your path:
+
+- **Hands-on builder / IC** → [Agentic Workflows](./docs/agentic-workflows.md) → [Pattern Catalog](./docs/patterns/) → the runnable [examples](./examples/) → [Prompting](./docs/prompting-and-instructions.md), [RAG](./docs/rag-and-grounding.md), [Evaluating Agents](./docs/evaluating-agents.md).
+- **Tech lead / architect** → [The Agentic SDLC](./docs/agentic-sdlc.md) → [Multi-Agent Systems](./docs/multi-agent-systems.md) → [Governance & Metrics](./docs/governance-and-metrics.md) → [Reliability](./docs/reliability-and-recovery.md), [Observability](./docs/observability.md), [Security](./docs/security.md), [Agent Identity](./docs/agent-identity-and-access.md).
+- **Engineering leader / exec** → [Maturity Model](./docs/maturity-model.md) → [Business Case & ROI](./docs/business-case-and-roi.md) → [Adoption Roadmap](./docs/adoption-roadmap.md) → [Team & Operating Model](./docs/team-and-operating-model.md), [Compliance](./docs/compliance-and-regulation.md).
+- **Just want the landscape** → [Anti-Patterns](./docs/anti-patterns.md), [Case Studies](./docs/case-studies.md), [Tooling Landscape](./docs/tooling-landscape.md), [FAQ](./docs/faq.md).
+
 ## Contents
 
 > Prefer a grouped, journey-ordered view? See the [docs index](./docs/README.md).
