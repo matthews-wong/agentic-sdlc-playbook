@@ -131,6 +131,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [LLM Evaluation Framework: Trajectories vs. Outputs (LangChain)](https://www.langchain.com/resources/llm-evaluation-framework)
 - [AgentAssay: Token-Efficient Regression Testing for Non-Deterministic Agent Workflows (arXiv)](https://arxiv.org/pdf/2603.02601)
 
+## Agent identity & access
+
+- [The Non-Human Identity Governance Vacuum — NHI & Agentic AI (Cloud Security Alliance)](https://labs.cloudsecurityalliance.org/research/csa-whitepaper-nonhuman-identity-agentic-ai-governance-v1-cs/)
+- [Identiverse 2026 Recap: Identity Security for Agentic AI Dominates (Forrester)](https://www.forrester.com/blogs/identiverse-2026-recap-identity-security-for-agentic-ai-dominates/)
+- [Identity for AI Agents and Agentic Authentication 2026 (Avatier)](https://identitychallengecard.avatier.com/en/blog/identity-ai-agents-agentic-authentication-2026)
+- [A Zero-Trust Identity Framework for Agentic AI (arXiv)](https://arxiv.org/pdf/2505.19301)
+
 ## Agentic security
 
 - [How Prompt Injection Attacks Compromise AI Agents (Atlan)](https://atlan.com/know/prompt-injection-attacks-ai-agents/)

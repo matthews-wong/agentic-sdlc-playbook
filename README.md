@@ -31,6 +31,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Adoption Roadmap](./docs/adoption-roadmap.md) | A pragmatic 30/60/90-day plan to roll agents into a real team's SDLC |
 | [Team & Operating Model](./docs/team-and-operating-model.md) | Roles (creator→curator), new roles, and org patterns for coordinating humans + agents |
 | [Securing Agentic Systems](./docs/security.md) | Prompt injection, least privilege, sandboxing, tool-use governance, and a security checklist |
+| [Agent Identity & Access](./docs/agent-identity-and-access.md) | Agents as a distinct identity class — delegation vs impersonation, scoped/ephemeral credentials, NHI risk |
 | [Evaluating Agents](./docs/evaluating-agents.md) | Trajectory vs. final-answer evals, LLM-as-judge limits, and regression testing under non-determinism |
 | [Cost & Performance](./docs/cost-and-performance.md) | Token economics, prompt caching, model routing, batching, and latency levers |
 | [Protocols: MCP & A2A](./docs/protocols-mcp-a2a.md) | The two-layer interoperability stack — MCP for tools, A2A for agent coordination |
