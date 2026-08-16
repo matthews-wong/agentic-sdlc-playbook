@@ -27,6 +27,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Governance & Metrics](./docs/governance-and-metrics.md) | Guardrails, observability, human-in-the-loop design, and the metrics that prove value |
 | [Adoption Roadmap](./docs/adoption-roadmap.md) | A pragmatic 30/60/90-day plan to roll agents into a real team's SDLC |
 | [Securing Agentic Systems](./docs/security.md) | Prompt injection, least privilege, sandboxing, tool-use governance, and a security checklist |
+| [Evaluating Agents](./docs/evaluating-agents.md) | Trajectory vs. final-answer evals, LLM-as-judge limits, and regression testing under non-determinism |
 | [Pattern Catalog](./docs/patterns/) | Each orchestration workflow with a minimal, framework-agnostic code sketch |
 | [Case Studies](./docs/case-studies.md) | Real & reference-architecture examples (GitHub Copilot coding agent, end-to-end Azure+GitHub SDLC) mapped to the patterns |
 | [Tooling Landscape](./docs/tooling-landscape.md) | Agent-building frameworks vs. SDLC agent products, and criteria for choosing between them |

@@ -29,6 +29,14 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Mervin Praison — [When Not to Build AI Agents: Anthropic's Workflow-vs-Agent Playbook](https://mer.vin/2026/05/when-not-to-build-ai-agents-anthropics-workflow-vs-agent-playbook/)
 - Spring AI — [Building Effective Agents (reference implementation)](https://docs.spring.io/spring-ai/reference/api/effective-agents.html)
 
+## Evaluating agents
+
+- [Evaluating AI Agents: Trajectory & Tool-Use Evals (AppScale)](https://appscale.blog/en/blog/evaluating-ai-agents-trajectory-tool-use-evaluation-2026)
+- [LLM Agent Evaluation Metrics 2026 (Confident AI)](https://www.confident-ai.com/blog/llm-agent-evaluation-complete-guide)
+- [LLM-as-a-Judge in 2026 (DeepEval)](https://deepeval.com/blog/llm-as-a-judge)
+- [LLM Evaluation Framework: Trajectories vs. Outputs (LangChain)](https://www.langchain.com/resources/llm-evaluation-framework)
+- [AgentAssay: Token-Efficient Regression Testing for Non-Deterministic Agent Workflows (arXiv)](https://arxiv.org/pdf/2603.02601)
+
 ## Agentic security
 
 - [How Prompt Injection Attacks Compromise AI Agents (Atlan)](https://atlan.com/know/prompt-injection-attacks-ai-agents/)
