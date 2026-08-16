@@ -30,6 +30,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Tooling Landscape](./docs/tooling-landscape.md) | Agent-building frameworks vs. SDLC agent products, and criteria for choosing between them |
 | [Anti-Patterns](./docs/anti-patterns.md) | The 10 recurring ways agentic systems fail — smell, cause, and fix for each |
 | [Diagrams](./docs/diagrams.md) | Mermaid visuals of the SDLC loop, each orchestration workflow, and the guardrail decision tree |
+| [Example: release-notes agent](./examples/release-notes-agent/) | A runnable ~100-line agent composing prompt chaining + evaluator-optimizer, with a no-API-key mock and tests |
 | [References](./docs/references.md) | Every source cited across the playbook |
 
 ## The one-paragraph version
