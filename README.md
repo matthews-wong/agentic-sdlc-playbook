@@ -20,6 +20,8 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 
 ## Contents
 
+> Prefer a grouped, journey-ordered view? See the [docs index](./docs/README.md).
+
 | Guide | What it covers |
 |-------|----------------|
 | [Agentic SDLC](./docs/agentic-sdlc.md) | The lifecycle stage by stage, agent roles, human review checkpoints, and how it differs from AI-assisted coding |
