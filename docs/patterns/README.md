@@ -20,4 +20,4 @@ Read [../agentic-workflows.md](../agentic-workflows.md) first for the concepts; 
 | Orchestrator-workers | Lead agent decomposes at runtime, delegates | [orchestrator-workers.md](./orchestrator-workers.md) |
 | Evaluator-optimizer | Generate ↔ critique loop against criteria | [evaluator-optimizer.md](./evaluator-optimizer.md) |
 
-The cognitive patterns — **reflection**, **tool use**, **planning**, **ReAct** — are not separate files; they compose *inside* these workflows (e.g. evaluator-optimizer is reflection made structural; every worker here can use tools).
+The cognitive patterns — **reflection**, **tool use**, **planning**, **ReAct** — compose *inside* these workflows (e.g. evaluator-optimizer is reflection made structural; every worker here can use tools). They have their own deep-dive with code sketches: [cognitive-patterns.md](./cognitive-patterns.md).
