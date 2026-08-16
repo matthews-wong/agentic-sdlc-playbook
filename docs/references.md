@@ -73,6 +73,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [From Vibe Coding to Spec-Driven Development (Towards Data Science)](https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/)
 - [What Is Spec-Driven Development? (Augment Code)](https://www.augmentcode.com/guides/what-is-spec-driven-development)
 
+## Multi-agent systems
+
+- [Multi-agent system architecture: a comparison guide + best practices (Openlayer)](https://www.openlayer.com/blog/multi-agent-system-architecture-guide)
+- [Agent Architecture Patterns: 2026 Taxonomy Guide (Digital Applied)](https://www.digitalapplied.com/blog/agent-architecture-patterns-taxonomy-2026)
+- [Multi-Agent Architecture: Patterns, Use Cases & Production Reality (TrueFoundry)](https://www.truefoundry.com/blog/multi-agent-architecture)
+- [Agent Swarms: Multi-Agent Architectures for AI Systems (Medium)](https://medium.com/@martinstm/agent-swarms-multi-agent-architectures-for-ai-systems-3e8f11bc1f48)
+
 ## RAG & grounding
 
 - [RAG Best Practices for Enterprise AI: Chunking, Embeddings, Reranking, Hybrid Search (StackAI)](https://www.stackai.com/insights/retrieval-augmented-generation-%28rag%29-best-practices-for-enterprise-ai-chunking-embeddings-reranking-and-hybrid-search-optimization)
