@@ -59,6 +59,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [AI Error Handling Patterns 2026: Circuit Breakers, Retries & Fallbacks (ValueStream)](https://valuestreamai.com/blog/ai-error-handling-patterns-2026)
 - [AI Agent Error Handling: 7 Proven Practices (Agentive)](https://agentiveaiagents.com/ai-agent-error-handling-best-practices/)
 
+## Agentic coding & spec-driven development
+
+- [Spec-Driven Development (SDD): The Definitive 2026 Guide (BCMS)](https://www.thebcms.com/blog/spec-driven-development/)
+- [Agentic Coding Best Practices: Spec-Driven Development, HITL, Context Control (Blink)](https://blink.new/blog/agentic-coding-best-practices)
+- [From Vibe Coding to Spec-Driven Development (Towards Data Science)](https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/)
+- [What Is Spec-Driven Development? (Augment Code)](https://www.augmentcode.com/guides/what-is-spec-driven-development)
+
 ## RAG & grounding
 
 - [RAG Best Practices for Enterprise AI: Chunking, Embeddings, Reranking, Hybrid Search (StackAI)](https://www.stackai.com/insights/retrieval-augmented-generation-(rag)-best-practices-for-enterprise-ai-chunking-embeddings-reranking-and-hybrid-search-optimization)
