@@ -51,6 +51,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [AI Error Handling Patterns 2026: Circuit Breakers, Retries & Fallbacks (ValueStream)](https://valuestreamai.com/blog/ai-error-handling-patterns-2026)
 - [AI Agent Error Handling: 7 Proven Practices (Agentive)](https://agentiveaiagents.com/ai-agent-error-handling-best-practices/)
 
+## Prompting & instruction design
+
+- Anthropic — [Writing effective tools for AI agents](https://www.anthropic.com/engineering/writing-tools-for-agents)
+- [System Prompts That Actually Control Agent Behavior (Pristren)](https://pristren.com/blog/prompting-for-agents-guide/)
+- [Writing System Prompts for AI Agents: Best Practices 2026 (Runyard)](https://runyard.io/blog/ai-agent-system-prompts-guide)
+- [Agentic AI Prompting Guide 2026 (SurePrompts)](https://sureprompts.com/blog/agentic-ai-prompting-guide)
+
 ## Context & memory
 
 - [Context Engineering: A Practical Guide for AI Agents (Sourcegraph)](https://sourcegraph.com/blog/context-engineering)
