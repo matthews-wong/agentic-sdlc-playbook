@@ -29,4 +29,11 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Mervin Praison — [When Not to Build AI Agents: Anthropic's Workflow-vs-Agent Playbook](https://mer.vin/2026/05/when-not-to-build-ai-agents-anthropics-workflow-vs-agent-playbook/)
 - Spring AI — [Building Effective Agents (reference implementation)](https://docs.spring.io/spring-ai/reference/api/effective-agents.html)
 
+## Tooling landscape
+
+- [2026 AI Agent Framework Showdown (QubitTool)](https://qubittool.com/blog/ai-agent-framework-comparison-2026)
+- [Best AI Agent Frameworks 2026 (Alice Labs)](https://alicelabs.ai/en/insights/best-ai-agent-frameworks-2026)
+- [Agentic AI Frameworks 2026: Production Comparison (Uvik)](https://uvik.net/blog/agentic-ai-frameworks/)
+- [10 AI Agent Frameworks You Should Know in 2026 (Medium/ATNO)](https://medium.com/@atnoforgenai/10-ai-agent-frameworks-you-should-know-in-2026-langgraph-crewai-autogen-more-2e0be4055556)
+
 > Note on figures: quantitative claims (2× release frequency, up to 96% defect reduction, 30–40% coding gains vs. <10% team productivity, 6+ stage threshold) are drawn from the industry sources above and are directional benchmarks, not guarantees. Treat them as hypotheses to validate against your own metrics (see [Governance & Metrics](./governance-and-metrics.md)).
