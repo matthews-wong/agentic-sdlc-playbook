@@ -17,6 +17,24 @@ A useful mental model:
 
 Agents can take meaningful work in every stage. The pattern that repeats is **agent executes → human reviews at a defined checkpoint**.
 
+```mermaid
+flowchart LR
+    intent([Human intent]) --> plan[Planner]
+    plan --> g1{{Approve plan}}
+    g1 --> build[Implementer]
+    build --> review[Reviewer]
+    review --> g2{{Human merge}}
+    g2 --> verify[Verifier]
+    verify --> g3{{Approve prod}}
+    g3 --> deploy[Deploy]
+    deploy --> operate[Operator]
+    operate -. telemetry .-> intent
+    classDef gate fill:#fde68a,stroke:#b45309,color:#111;
+    class g1,g2,g3 gate;
+```
+
+*(◆ = human checkpoint. More diagrams — including each orchestration workflow — in [diagrams.md](./diagrams.md).)*
+
 ### 1. Plan
 - Agents draft specs from a goal, decompose epics into tasks, and surface ambiguities as questions.
 - Human checkpoint: approve the plan and acceptance criteria before code is written.
