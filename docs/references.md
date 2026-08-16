@@ -29,6 +29,14 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Mervin Praison — [When Not to Build AI Agents: Anthropic's Workflow-vs-Agent Playbook](https://mer.vin/2026/05/when-not-to-build-ai-agents-anthropics-workflow-vs-agent-playbook/)
 - Spring AI — [Building Effective Agents (reference implementation)](https://docs.spring.io/spring-ai/reference/api/effective-agents.html)
 
+## Agentic security
+
+- [How Prompt Injection Attacks Compromise AI Agents (Atlan)](https://atlan.com/know/prompt-injection-attacks-ai-agents/)
+- [Agentic AI Security in 2026: Prompt Injection, Tool Hijacking, and the Defense Stack (Zylos)](https://zylos.ai/research/2026-05-16-agentic-ai-security-prompt-injection-defense-stack/)
+- [Tool Execution Security for AI Agents (Datawiza)](https://www.datawiza.com/blog/tool-execution-security-autonomous-agents)
+- [Prompt Injection in Agentic AI: acts like RCE (DevSecCode)](https://devseccode.com/blog/prompt-injection-agentic-ai-2026)
+- [AI Agent Security Risks (Alice Labs)](https://alicelabs.ai/en/insights/ai-agent-security-risks)
+
 ## Tooling landscape
 
 - [2026 AI Agent Framework Showdown (QubitTool)](https://qubittool.com/blog/ai-agent-framework-comparison-2026)
