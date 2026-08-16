@@ -37,6 +37,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Prompting & Instructions](./docs/prompting-and-instructions.md) | System prompts as runbooks, tool descriptions, structured output, and multi-agent handoffs |
 | [Reliability & Recovery](./docs/reliability-and-recovery.md) | Retries/backoff, idempotency, durable state & sagas, and human-escalation triggers |
 | [Observability](./docs/observability.md) | Tracing agent runs with OpenTelemetry GenAI conventions — spans, token/cost attribution, and where it stops |
+| [Compliance & Regulation](./docs/compliance-and-regulation.md) | EU AI Act, NIST AI RMF, ISO 42001, the agentic gap, and a pragmatic sequencing plan |
 | [Pattern Catalog](./docs/patterns/) | Each orchestration workflow with a minimal, framework-agnostic code sketch |
 | [Case Studies](./docs/case-studies.md) | Real & reference-architecture examples (GitHub Copilot coding agent, end-to-end Azure+GitHub SDLC) mapped to the patterns |
 | [Tooling Landscape](./docs/tooling-landscape.md) | Agent-building frameworks vs. SDLC agent products, and criteria for choosing between them |

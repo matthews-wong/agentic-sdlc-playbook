@@ -36,6 +36,14 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [How agentic AI will reshape engineering workflows in 2026 (CIO)](https://www.cio.com/article/4134741/how-agentic-ai-will-reshape-engineering-workflows-in-2026.html)
 - [Agentic AI Across the SDLC — Smaller Teams, Bigger Output (Forbes)](https://councils.forbes.com/blog/agentic-ai-across-the-sdlc-smaller-teams-bigger-output)
 
+## Compliance & regulation
+
+- [Global AI Governance Comparison 2026: EU AI Act vs NIST AI RMF vs ISO/IEC 42001 (GAICC)](https://gaicc.org/blog/ai-governance-comparison-eu-ai-act-nist-iso-42001/)
+- [EU AI Act vs NIST AI RMF vs ISO/IEC 42001: A Plain English Comparison (EC-Council)](https://www.eccouncil.org/cybersecurity-exchange/responsible-ai-governance/eu-ai-act-nist-ai-rmf-and-iso-iec-42001-a-plain-english-comparison/)
+- [AI Agent Governance and Compliance in 2026 (Zylos)](https://zylos.ai/research/2026-05-01-ai-agent-governance-compliance-2026/)
+- [Agentic AI Governance: NIST Standards for Autonomous Systems (CSA)](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/governance-nist-ai-agent-standards-agentic-governance-v1-csa-styled.pdf)
+- [AI Agent Compliance in Regulated Industries (metacto)](https://www.metacto.com/blogs/ai-agents-regulated-industries-compliance)
+
 ## Observability
 
 - [OpenTelemetry for AI Systems: LLM and Agent Observability (Uptrace)](https://uptrace.dev/blog/opentelemetry-ai-systems)
