@@ -29,6 +29,14 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Mervin Praison — [When Not to Build AI Agents: Anthropic's Workflow-vs-Agent Playbook](https://mer.vin/2026/05/when-not-to-build-ai-agents-anthropics-workflow-vs-agent-playbook/)
 - Spring AI — [Building Effective Agents (reference implementation)](https://docs.spring.io/spring-ai/reference/api/effective-agents.html)
 
+## Cost & performance
+
+- [LLM Cost Optimization: Prompt Caching, Batching & Routing (DataNorth)](https://datanorth.ai/blog/llm-cost-optimization-prompt-caching-batching-routing)
+- [LLM Cost Optimization in 2026: Routing, Caching, Batching (Mavik Labs)](https://www.maviklabs.com/blog/llm-cost-optimization-2026)
+- [LLM Model Routing in 2026: Cost-Quality Optimization (Digital Applied)](https://www.digitalapplied.com/blog/llm-model-routing-2026-cost-quality-optimization-engineering-guide)
+- [Prompt Caching in 2026: Cut LLM Costs, Keep Quality (Digital Applied)](https://www.digitalapplied.com/blog/prompt-caching-2026-cut-llm-costs-engineering-guide)
+- [LLM Cost Optimization: 5 Levers (Morph)](https://www.morphllm.com/llm-cost-optimization)
+
 ## Evaluating agents
 
 - [Evaluating AI Agents: Trajectory & Tool-Use Evals (AppScale)](https://appscale.blog/en/blog/evaluating-ai-agents-trajectory-tool-use-evaluation-2026)
