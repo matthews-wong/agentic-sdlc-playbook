@@ -36,6 +36,14 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [How agentic AI will reshape engineering workflows in 2026 (CIO)](https://www.cio.com/article/4134741/how-agentic-ai-will-reshape-engineering-workflows-in-2026.html)
 - [Agentic AI Across the SDLC — Smaller Teams, Bigger Output (Forbes)](https://councils.forbes.com/blog/agentic-ai-across-the-sdlc-smaller-teams-bigger-output)
 
+## Observability
+
+- [OpenTelemetry for AI Systems: LLM and Agent Observability (Uptrace)](https://uptrace.dev/blog/opentelemetry-ai-systems)
+- [OpenTelemetry GenAI Semantic Conventions — the standard for LLM observability (DEV)](https://dev.to/x4nent/opentelemetry-genai-semantic-conventions-the-standard-for-llm-observability-1o2a)
+- [How OpenTelemetry Traces LLM Calls, Agent Reasoning, and MCP Tools (Greptime)](https://greptime.com/blogs/2026-05-09-opentelemetry-genai-semantic-conventions)
+- [Datadog Agent Observability supports OTel GenAI Semantic Conventions](https://www.datadoghq.com/blog/llm-otel-semantic-convention/)
+- [OpenTelemetry for AI Observability: What It Covers and Where It Stops (Fiddler)](https://www.fiddler.ai/blog/opentelemetry-ai-observability-guide)
+
 ## Reliability & recovery
 
 - [Designing Fault-Tolerant AI Agent Pipelines: Idempotency, Retries, State (MightyBot)](https://mightybot.ai/blog/fault-tolerant-ai-agent-pipelines/)
