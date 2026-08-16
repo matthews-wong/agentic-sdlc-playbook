@@ -67,6 +67,7 @@ Every added layer earns its place by removing a specific, observed failure.
 
 ## See also
 
+- [Pattern catalog](./patterns/) — each workflow above with a minimal, framework-agnostic code sketch and its trade-offs.
 - [Agentic SDLC](./agentic-sdlc.md) — where these patterns get applied across delivery.
 - [Governance & Metrics](./governance-and-metrics.md) — keeping autonomous loops safe and measurable.
 - [References](./references.md) — sources.
