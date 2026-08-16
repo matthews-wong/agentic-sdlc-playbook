@@ -59,6 +59,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [AI Error Handling Patterns 2026: Circuit Breakers, Retries & Fallbacks (ValueStream)](https://valuestreamai.com/blog/ai-error-handling-patterns-2026)
 - [AI Agent Error Handling: 7 Proven Practices (Agentive)](https://agentiveaiagents.com/ai-agent-error-handling-best-practices/)
 
+## RAG & grounding
+
+- [RAG Best Practices for Enterprise AI: Chunking, Embeddings, Reranking, Hybrid Search (StackAI)](https://www.stackai.com/insights/retrieval-augmented-generation-(rag)-best-practices-for-enterprise-ai-chunking-embeddings-reranking-and-hybrid-search-optimization)
+- [Advanced RAG techniques for high-performance LLM applications (Neo4j)](https://neo4j.com/blog/genai/advanced-rag-techniques/)
+- [How to stop AI hallucinations in enterprise RAG systems (Redgate)](https://www.red-gate.com/simple-talk/ai/how-to-stop-ai-hallucinations-in-enterprise-rag-systems-a-complete-guide/)
+- [RAG Best Practices 2026: Chunking, Reranking, Hybrid Search (CallMissed)](https://www.callmissed.com/en/blog/rag-best-practices-2026)
+
 ## Prompting & instruction design
 
 - Anthropic — [Writing effective tools for AI agents](https://www.anthropic.com/engineering/writing-tools-for-agents)

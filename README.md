@@ -35,6 +35,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Protocols: MCP & A2A](./docs/protocols-mcp-a2a.md) | The two-layer interoperability stack — MCP for tools, A2A for agent coordination |
 | [Context & Memory](./docs/context-and-memory.md) | Context rot, short/long-term memory, compaction (and governance decay), and just-in-time retrieval |
 | [Prompting & Instructions](./docs/prompting-and-instructions.md) | System prompts as runbooks, tool descriptions, structured output, and multi-agent handoffs |
+| [RAG & Grounding](./docs/rag-and-grounding.md) | Chunking, hybrid retrieval, reranking, per-claim citations, and agentic multi-hop retrieval |
 | [Reliability & Recovery](./docs/reliability-and-recovery.md) | Retries/backoff, idempotency, durable state & sagas, and human-escalation triggers |
 | [Observability](./docs/observability.md) | Tracing agent runs with OpenTelemetry GenAI conventions — spans, token/cost attribution, and where it stops |
 | [Compliance & Regulation](./docs/compliance-and-regulation.md) | EU AI Act, NIST AI RMF, ISO 42001, the agentic gap, and a pragmatic sequencing plan |
