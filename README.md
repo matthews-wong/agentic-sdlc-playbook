@@ -34,6 +34,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Example: ticket-triage agent](./examples/ticket-triage-agent/) | A runnable agent composing routing + parallelization, with a no-API-key mock and tests |
 | [Glossary](./docs/glossary.md) | Concise definitions of every key term, each linked to its section |
 | [FAQ](./docs/faq.md) | Straight answers to the questions this playbook is most often asked |
+| [Further Reading](./docs/further-reading.md) | A short curated path beyond this playbook, with why-to-read notes |
 | [References](./docs/references.md) | Every source cited across the playbook |
 
 ## The one-paragraph version
