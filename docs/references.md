@@ -29,6 +29,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Mervin Praison — [When Not to Build AI Agents: Anthropic's Workflow-vs-Agent Playbook](https://mer.vin/2026/05/when-not-to-build-ai-agents-anthropics-workflow-vs-agent-playbook/)
 - Spring AI — [Building Effective Agents (reference implementation)](https://docs.spring.io/spring-ai/reference/api/effective-agents.html)
 
+## Team & operating model
+
+- [Agentic Engineering Operating Model: Teams + Agents (Augment Code)](https://www.augmentcode.com/guides/agentic-engineering-operating-model)
+- [Preparing your team for the agentic SDLC (Thoughtworks)](https://www.thoughtworks.com/insights/articles/preparing-your-team-for-agentic-software-development-life-cycle)
+- [How agentic AI will reshape engineering workflows in 2026 (CIO)](https://www.cio.com/article/4134741/how-agentic-ai-will-reshape-engineering-workflows-in-2026.html)
+- [Agentic AI Across the SDLC — Smaller Teams, Bigger Output (Forbes)](https://councils.forbes.com/blog/agentic-ai-across-the-sdlc-smaller-teams-bigger-output)
+
 ## Reliability & recovery
 
 - [Designing Fault-Tolerant AI Agent Pipelines: Idempotency, Retries, State (MightyBot)](https://mightybot.ai/blog/fault-tolerant-ai-agent-pipelines/)

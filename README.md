@@ -28,6 +28,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Agentic Workflows](./docs/agentic-workflows.md) | The core pattern catalog: reflection, tool use, planning, ReAct, and the five orchestration workflows; when *not* to build an agent |
 | [Governance & Metrics](./docs/governance-and-metrics.md) | Guardrails, observability, human-in-the-loop design, and the metrics that prove value |
 | [Adoption Roadmap](./docs/adoption-roadmap.md) | A pragmatic 30/60/90-day plan to roll agents into a real team's SDLC |
+| [Team & Operating Model](./docs/team-and-operating-model.md) | Roles (creator→curator), new roles, and org patterns for coordinating humans + agents |
 | [Securing Agentic Systems](./docs/security.md) | Prompt injection, least privilege, sandboxing, tool-use governance, and a security checklist |
 | [Evaluating Agents](./docs/evaluating-agents.md) | Trajectory vs. final-answer evals, LLM-as-judge limits, and regression testing under non-determinism |
 | [Cost & Performance](./docs/cost-and-performance.md) | Token economics, prompt caching, model routing, batching, and latency levers |
