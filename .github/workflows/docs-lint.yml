@@ -42,7 +42,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run example tests (mock backend, no network)
-        working-directory: examples/release-notes-agent
         run: |
           python -m pip install --upgrade pip pytest
-          python -m pytest -q
+          for dir in examples/*/; do
+            echo "== $dir ==" && (cd "$dir" && python -m pytest -q)
+          done
