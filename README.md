@@ -40,6 +40,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Reliability & Recovery](./docs/reliability-and-recovery.md) | Retries/backoff, idempotency, durable state & sagas, and human-escalation triggers |
 | [Observability](./docs/observability.md) | Tracing agent runs with OpenTelemetry GenAI conventions — spans, token/cost attribution, and where it stops |
 | [Compliance & Regulation](./docs/compliance-and-regulation.md) | EU AI Act, NIST AI RMF, ISO 42001, the agentic gap, and a pragmatic sequencing plan |
+| [Business Case & ROI](./docs/business-case-and-roi.md) | The conditional ROI, true TCO (API is 8–15%), four value categories, and build-vs-buy |
 | [Pattern Catalog](./docs/patterns/) | Each orchestration workflow with a minimal, framework-agnostic code sketch |
 | [Multi-Agent Systems](./docs/multi-agent-systems.md) | Coordination topologies (supervisor, hierarchy, graph, debate, swarm) and when the overhead is worth it |
 | [Case Studies](./docs/case-studies.md) | Real & reference-architecture examples (GitHub Copilot coding agent, end-to-end Azure+GitHub SDLC) mapped to the patterns |

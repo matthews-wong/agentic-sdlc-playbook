@@ -36,6 +36,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - [How agentic AI will reshape engineering workflows in 2026 (CIO)](https://www.cio.com/article/4134741/how-agentic-ai-will-reshape-engineering-workflows-in-2026.html)
 - [Agentic AI Across the SDLC — Smaller Teams, Bigger Output (Forbes)](https://councils.forbes.com/blog/agentic-ai-across-the-sdlc-smaller-teams-bigger-output)
 
+## Business case & ROI
+
+- [The Agentic AI ROI Numbers You Need to Know (BanTech)](https://www.bantechsolutions.com/agentic-ai-roi-business-case-enterprise/)
+- [Enterprise AI cost and ROI 2026: the evidence (Agent Mode AI)](https://agentmodeai.com/enterprise-ai-cost-and-roi/)
+- [AI Agent Development Costs in 2026: Full Breakdown (Geniusee)](https://geniusee.com/single-blog/ai-agent-development-costs)
+- [AI Agent ROI: Build a Business Case Your CFO Approves (Beam)](https://beam.ai/agentic-insights/ai-agent-roi-business-case-cfo-2026)
+
 ## Compliance & regulation
 
 - [Global AI Governance Comparison 2026: EU AI Act vs NIST AI RMF vs ISO/IEC 42001 (GAICC)](https://gaicc.org/blog/ai-governance-comparison-eu-ai-act-nist-iso-42001/)
