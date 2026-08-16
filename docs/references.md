@@ -14,6 +14,10 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Microsoft Community Hub — [An AI-led SDLC: Building an End-to-End Agentic Software Development Lifecycle with Azure and GitHub](https://techcommunity.microsoft.com/blog/appsonazureblog/an-ai-led-sdlc-building-an-end-to-end-agentic-software-development-lifecycle-wit/4491896)
 - arXiv — [An Empirical Study of Agent Developer Practices in AI Agent Frameworks](https://arxiv.org/pdf/2512.01939)
 
+## Case studies (products & real-world)
+
+- GitHub Copilot coding agent — [Guide 2026 (RockB)](https://baeseokjae.github.io/posts/github-copilot-coding-agent-guide-2026/), [autonomous task management with GitHub Actions (launch)](https://alternativeto.net/news/2025/5/github-launches-new-copilot-agent-for-autonomous-task-management-with-github-actions/), [Copilot Desktop GA, June 17 2026](https://windowsforum.com/windows-news.4/github-copilot-desktop-app-ga-2026-turns-ai-coding-into-a-supervised-agent-control-plane.427657/)
+
 ## Agentic workflow patterns
 
 - Augment Code — [What Are Agentic Design Patterns? 2026 Pattern Catalog](https://www.augmentcode.com/guides/agentic-design-patterns)
