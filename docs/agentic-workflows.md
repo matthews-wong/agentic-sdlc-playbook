@@ -51,7 +51,7 @@ Autonomy is a cost, not a goal. Prefer a workflow — or plain code — when:
 - Errors are expensive and hard to reverse, and you can't gate them → keep a human in the loop instead of adding autonomy.
 - You can't evaluate the output → without an evaluation signal, an evaluator-optimizer loop has nothing to optimize against.
 
-The failure mode of 2024–2026 was reaching for autonomous agents where a deterministic workflow would have been more reliable, cheaper, and easier to debug. **Most production failures in that period were architectural, not model-quality, failures.**
+The failure mode of 2024–2026 was reaching for autonomous agents where a deterministic workflow would have been more reliable, cheaper, and easier to debug. **Most production failures in that period were architectural, not model-quality, failures.** For the full catalog of failure modes, see [anti-patterns](./anti-patterns.md).
 
 ## Combining patterns — a worked example
 

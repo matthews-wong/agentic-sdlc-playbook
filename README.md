@@ -27,6 +27,7 @@ Coding assistants improved raw code output by 30–40%, yet most teams saw overa
 | [Pattern Catalog](./docs/patterns/) | Each orchestration workflow with a minimal, framework-agnostic code sketch |
 | [Case Studies](./docs/case-studies.md) | Real & reference-architecture examples (GitHub Copilot coding agent, end-to-end Azure+GitHub SDLC) mapped to the patterns |
 | [Tooling Landscape](./docs/tooling-landscape.md) | Agent-building frameworks vs. SDLC agent products, and criteria for choosing between them |
+| [Anti-Patterns](./docs/anti-patterns.md) | The 10 recurring ways agentic systems fail — smell, cause, and fix for each |
 | [References](./docs/references.md) | Every source cited across the playbook |
 
 ## The one-paragraph version
