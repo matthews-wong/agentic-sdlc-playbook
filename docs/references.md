@@ -29,6 +29,13 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 - Mervin Praison — [When Not to Build AI Agents: Anthropic's Workflow-vs-Agent Playbook](https://mer.vin/2026/05/when-not-to-build-ai-agents-anthropics-workflow-vs-agent-playbook/)
 - Spring AI — [Building Effective Agents (reference implementation)](https://docs.spring.io/spring-ai/reference/api/effective-agents.html)
 
+## Reliability & recovery
+
+- [Designing Fault-Tolerant AI Agent Pipelines: Idempotency, Retries, State (MightyBot)](https://mightybot.ai/blog/fault-tolerant-ai-agent-pipelines/)
+- [AI Agent Retry Policies: A Practical Guide (Prismocode)](https://www.prismocode.io/ai-agent-retry-policies/)
+- [AI Error Handling Patterns 2026: Circuit Breakers, Retries & Fallbacks (ValueStream)](https://valuestreamai.com/blog/ai-error-handling-patterns-2026)
+- [AI Agent Error Handling: 7 Proven Practices (Agentive)](https://agentiveaiagents.com/ai-agent-error-handling-best-practices/)
+
 ## Context & memory
 
 - [Context Engineering: A Practical Guide for AI Agents (Sourcegraph)](https://sourcegraph.com/blog/context-engineering)
