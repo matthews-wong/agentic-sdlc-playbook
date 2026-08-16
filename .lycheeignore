@@ -1,0 +1,6 @@
+# URLs excluded from lychee link-checking.
+# Each line is a regex matched against the URL. Listed here = the page is live
+# but blocks automated link-checkers (verified 200 in a browser), so a CI
+# failure would be a false negative. Internal links are strictly checked by
+# scripts/check_links.py (the anchor-links job), not lychee.
+prismocode\.io

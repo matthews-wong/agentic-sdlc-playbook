@@ -30,14 +30,10 @@ jobs:
         with:
           # Accept bot-block (403) and rate-limit (429) as non-failures: many
           # sites reject automated agents even though the page is live. Real
-          # 404s still fail. Internal file/#anchor links are strictly enforced
-          # by the separate anchor-links job (scripts/check_links.py).
-          args: >-
-            --no-progress
-            --accept 200,206,403,429
-            --max-retries 2
-            --user-agent "Mozilla/5.0 (compatible; lychee link-checker)"
-            './**/*.md'
+          # 404s still fail. Live-but-blocking domains are in .lycheeignore.
+          # Internal file/#anchor links are strictly enforced by the separate
+          # anchor-links job (scripts/check_links.py).
+          args: "--no-progress --max-retries 2 --accept 200,206,403,429 './**/*.md'"
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

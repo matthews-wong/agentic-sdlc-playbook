@@ -84,7 +84,6 @@ Sources cited across this playbook. Access dates reflect the research pass that 
 
 - Anthropic — [Writing effective tools for AI agents](https://www.anthropic.com/engineering/writing-tools-for-agents)
 - [System Prompts That Actually Control Agent Behavior (Pristren)](https://pristren.com/blog/prompting-for-agents-guide/)
-- [Writing System Prompts for AI Agents: Best Practices 2026 (Runyard)](https://runyard.io/blog/ai-agent-system-prompts-guide)
 - [Agentic AI Prompting Guide 2026 (SurePrompts)](https://sureprompts.com/blog/agentic-ai-prompting-guide)
 
 ## Context & memory
