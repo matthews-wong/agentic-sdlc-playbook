@@ -19,7 +19,7 @@ The full guide set, grouped by where you are in the journey. New here? Read [age
 - [Agentic Coding](./agentic-coding.md) — spec-driven development and the spec→plan→tasks→code loop.
 - [Prompting & Instructions](./prompting-and-instructions.md) — system prompts as runbooks, tool descriptions, structured output.
 - [RAG & Grounding](./rag-and-grounding.md) — chunking, hybrid retrieval, reranking, citations, agentic RAG.
-- Worked examples: [release-notes agent](../examples/release-notes-agent/) (chaining + evaluator-optimizer) · [ticket-triage agent](../examples/ticket-triage-agent/) (routing + parallelization) — both runnable and tested.
+- Worked examples ([all](../examples/)): [release-notes agent](../examples/release-notes-agent/) (chaining + evaluator-optimizer) · [ticket-triage agent](../examples/ticket-triage-agent/) (routing + parallelization) — both runnable and tested.
 
 ## Operate — running agents well
 
